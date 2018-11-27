@@ -7,7 +7,6 @@ new Vue({
   render: h => h(App)
 }).$mount('#app')
 
-
 /* import { Observable, Subscription, Subject } from 'rxjs'
 import VueRx from 'vue-rx'
 

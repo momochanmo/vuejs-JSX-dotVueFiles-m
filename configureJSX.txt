@@ -1,0 +1,23 @@
+You have to install :
+@vue/cli-plugin-babel,
+babel-plugin-jsx-event-modifiers,
+babel-plugin-syntax-jsx
+
+& configure babel.config.js to :
+module.exports = {
+  presets: [
+    '@vue/app'
+  ],
+  plugins: [
+    'jsx-event-modifiers'
+  ]
+}
+
+/*"@babel/core": "^7.1.6",
+"@babel/preset-env": "^7.1.6",
+"@vue/cli-plugin-babel": "^3.1.1",
+"babel-eslint": "^10.0.1",
+"babel-loader": "^8.0.4",
+"babel-plugin-jsx-event-modifiers": "^2.0.5",
+"babel-plugin-jsx-vue-functional": "^2.1.0",
+"babel-plugin-transform-vue-jsx": "^3.7.0",*/
