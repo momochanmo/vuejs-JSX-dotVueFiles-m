@@ -1,7 +1,7 @@
 You have to install :
 @vue/cli-plugin-babel,
 babel-plugin-jsx-event-modifiers,
-babel-plugin-syntax-jsx
+babel-plugin-syntax-jsx      // first try '@babel/plugin-syntax-jsx'
 
 & configure babel.config.js to :
 module.exports = {
